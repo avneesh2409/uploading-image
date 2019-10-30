@@ -1,0 +1,24 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "description": "uploading the image file",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Avneesh Dwivedi",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "http": "0.0.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.6"
+  }
+}
